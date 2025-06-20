@@ -1,0 +1,32 @@
+{
+  "name": "forensic-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain-based forensic evidence management system",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest",
+    "compile": "npx hardhat compile"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "dotenv": "^16.3.1",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "minio": "^7.1.3",
+    "ethers": "^6.8.1",
+    "sequelize": "^6.35.0",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.2",
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0"
+  }
+}

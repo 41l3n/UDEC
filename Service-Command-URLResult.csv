@@ -1,0 +1,6 @@
+Service,Command,URL/Result
+MinIO,"$env:MINIO_ROOT_USER=""minioadmin""; $env:MINIO_ROOT_PASSWORD=""minioadmin""; .\minio.exe server C:\minio-data --console-address "":9001""",http://localhost:9001
+Hardhat Node,npx hardhat node,http://localhost:8545
+Deploy Contract,npx hardhat run scripts/deploy.ts --network localhost,Output: contract address
+Backend,npm start,http://localhost:3000
+Frontend,cd frontend && npm run dev,http://localhost:5173
